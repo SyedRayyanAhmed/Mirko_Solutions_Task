@@ -57,4 +57,4 @@ You can change the value of force applied for shooting the ball using the Force 
 
 ## Data From JSON
 The Data for the shapes of primitives and colours are fetched sequentially from this JSON file.
-<img src="/Images/Screenshot (10).png">
+<img src="/Images/Screenshot (110).png">
