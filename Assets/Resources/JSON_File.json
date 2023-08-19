@@ -1,0 +1,25 @@
+{
+	"primitives":
+	[
+		{
+			"name": "circle",
+			"colour": "red"
+		},
+		{
+			"name": "square",
+			"colour": "blue"
+		},
+		{
+			"name": "pyramid",
+			"colour": "green"
+		},
+		{
+			"name": "rectangle",
+			"colour": "yellow"
+		},
+		{
+			"name": "ellipse",
+			"colour": "black"
+		}
+	]
+}
