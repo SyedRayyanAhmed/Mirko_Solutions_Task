@@ -53,7 +53,7 @@ The Primitives will be spawning around the player. We have given a radius range 
 
 ## Change Force - Start Again - Shoot Again
 You can change the value of force applied for shooting the ball using the Force Slider. As you can see on the snapshot below. If you Click Shoot again button the ball will respawn and if you click the Start again button the game will restart.
-<img src="/Images/Screenshot (26).png">
+<img src="/Images/Screenshot Copy(26).png">
 
 ## Data From JSON
 The Data for the shapes of primitives and colours are fetched sequentially from this JSON file.
