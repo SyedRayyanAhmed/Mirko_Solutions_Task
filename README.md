@@ -17,20 +17,34 @@ For simplicity and understanding these are the defination of the terminologies m
 - Camera Transition = A change in the camera's focus to a new figure.<br>
 
 ## Main Scene Layout
-On the beginning of the scene we have 5 primitives one player and a Ball to shoot at the target.
+On the beginning of the scene we have 1 primitives one player and a Ball to shoot at the target.
 <img src="/Images/Screenshot (4).png">
 
 ## Navigation
-For navigation we have navigation keys as "A W S D" and Mouse Input for pointing the player to a direction<br> 
-We have 2 options here for Navigation.<br>
-1) World Space Navigation.<br>
-2) Local Space Navigation.<br>
+For navigation we have axis control. On PC it's mouse movement and On Joystick it's axis controller. Using axis control we change the view of the camera as Up & Down view. We can shoot the target using "s" button on PC, "A" button on X-box and Joystick Button 0.<br> 
 
-Both options have a different style of Navigation, based on the user specific preference. It can be enabled and disabled with the toggle click as you can see on the Snapshot below.
+reference on the Snapshot below.
+<img src="/Images/Screenshot (6).png">
+
+## Creating Shapes
+We have two primitive shapes in our disposal. 1) Sphere.fbx 2) Cube.fbx<br>
+using Math formula and calculations we created the other shapes from these primitives such as. 1) Rectangle 2) Ellipse
+<img src="/Images/Screenshot (6).png">
+
+## Mesh Creation
+For Primitive shape such as Pyramid we did Mesh creation usind 3D Co-Ordinates, Vertices, Triangles and Polygons.
+<img src="/Images/Screenshot (6).png">
+
+## Destroy with Physics simulation
+For destroying the target we used Physics explosion simulation to make the physics look realistic.
 <img src="/Images/Screenshot (6).png">
 
 ## Camera Transition
 When a new Primitive (figure) is spawned the camera focuses to that figure for a few seconds then It again starts looking back to the player.
+<img src="/Images/Screenshot (5).png">
+
+## Ball Colour is same as the target Colour
+The colour of the ball is fetched from JSON after hitting and destroying every target.
 <img src="/Images/Screenshot (5).png">
 
 ## Change Force
@@ -41,8 +55,8 @@ You can change the value of force applied for shooting the ball using the Force 
 The Primitives will be spawning around the player. We have given a radius range for that. Using the Radius slider you can change the limit until where the new primitives will be spawning.
 <img src="/Images/Screenshot (6).png">
 
-## Start Again
-Once you click the Start again button the game will restart.
+## Start Again or Shoot Again
+If you Click Shoot again button the ball will respawn and if you click the Start again button the game will restart.
 <img src="/Images/Screenshot (9).png">
 
 ## Data From JSON
